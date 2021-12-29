@@ -8,7 +8,7 @@ section{
     margin:2rem 2rem;
 }
 .hero{
-    background-color: rgb(248, 241, 241);
+    /* background-color: rgb(248, 241, 241); */
 
 }
 
@@ -65,7 +65,7 @@ ul {
     padding: 1rem;
   }
   h1,h2,h4{
-    color: rgb(128, 31, 14);
+    color: rgb(37, 36, 35);
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     /* text-shadow: 2px 2px #a08989; */
@@ -77,7 +77,7 @@ ul {
       padding: 1rem;
       margin-top: 1rem;
       border-radius: 10px;
-      background-color: rgb(197, 182, 182);
+      background-color: rgb(158, 146, 146);
   }
   
   
@@ -88,8 +88,12 @@ ul {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      justify-content: center;
      
       width: 100%;
+  }
+  .contactUs{
+      text-align: center;
   }
   .addressVin{
     max-width: 50%;
