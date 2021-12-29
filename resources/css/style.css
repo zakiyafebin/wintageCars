@@ -22,12 +22,13 @@ header {
     display: flex;
     flex-direction: row;
     z-index: 1000;
+    align-items: center;
   }
   .logo{
       flex:1;
       padding-left: 1rem;
   }
-
+ 
 ul {
     
     list-style: none;
@@ -35,6 +36,9 @@ ul {
     flex-direction: row;
     align-items: center;
     line-height: 1rem;
+
+    
+      align-items: center;
    
   }
   nav a{
@@ -151,7 +155,10 @@ ul {
       }
       .enquiry{
           display: block;
-          padding: 1rem;
+          /* padding: 1rem; */
+      }
+      iframe{
+          width: 95%;
       }
       .formContainer{
           padding: 0;
